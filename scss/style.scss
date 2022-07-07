@@ -1,0 +1,51 @@
+// variable starts here
+
+$garamondregular:'cormorant_garamondregular';
+$garamondlight:'cormorant_garamondlight';
+$garamondmedium:'cormorant_garamondmedium';
+$garamondsemibold:'cormorant_garamondsemibold';
+$garamondbold:'cormorant_garamondbold';
+
+
+
+$fnt-wt-300-light:300;
+$fnt-wt-400-regular:400;
+$fnt-wt-500-medium:500;
+$fnt-wt-600-semibold:600;
+$fnt-wt-700-bold:700;
+
+
+$cormorant-garamond:'Cormorant Garamond', serif;
+
+
+
+
+
+$gold-color:#8d7249;
+$text-size:24px;
+$white-color:#ffffff;
+
+$text-bold: bold;
+$text-center:center;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+
+
+
+
+
+@import "component/_awards";
+@import "component/_footer";
+@import "component/_form";
+@import "component/_header";
+@import "component/_houseofrohet";
+@import "component/_location"
+
+
+
+
+
+
+
+

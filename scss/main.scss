@@ -1,0 +1,139 @@
+// variable starts here
+
+$garamondregular:'cormorant_garamondregular';
+$garamondlight:'cormorant_garamondlight';
+$garamondmedium:'cormorant_garamondmedium';
+$garamondsemibold:'cormorant_garamondsemibold';
+$garamondbold:'cormorant_garamondbold';
+
+
+
+$fnt-wt-300-light:300;
+$fnt-wt-400-regular:400;
+$fnt-wt-500-medium:500;
+$fnt-wt-600-semibold:600;
+$fnt-wt-700-bold:700;
+
+
+$cormorant-garamond:'Cormorant Garamond', serif;
+
+
+
+
+
+$gold-color:#8d7249;
+$text-size:25px;
+$white-color:#ffffff;
+
+$text-bold: bold;
+$text-center:center;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+//default classes starts here
+
+.wrapper { width:100%; margin:0px auto; overflow-x:hidden; }
+.fluid-container {  width:100%; margin:0px auto;  }
+.custom-container { width:98%;  max-width:1600px; margin-right: auto;  margin-left: auto; padding-left: 15px; padding-right: 15px;  }
+
+
+
+.h1 { font-size:60px; font-family:$cormorant-garamond; font-weight:$fnt-wt-600-semibold; display:block; color:$gold-color; padding:0; margin:0; line-height:65px; }
+.h2 { font-size:60px; font-family:$cormorant-garamond; font-weight:$fnt-wt-600-semibold; display:block; color:$gold-color; margin:0; line-height:65px; text-align: center; padding:25px 0 25px 0;  }
+.h3 { font-size:45px; font-family:$cormorant-garamond; font-weight:$fnt-wt-600-semibold;display:block; color:$gold-color; padding:0; margin:0; line-height:50px; }
+
+
+.p { font-size:$text-size; font-family:$cormorant-garamond; font-weight:$fnt-wt-500-medium; display:block; color:$gold-color; margin:30px 0; line-height:30px;}
+.section-space { margin:50px 0 50px 0;}
+
+.white-bg {  background-color:rgba(255, 255, 255, 1); position:relative;
+//  background: url(../images/slider-1.jpg); background-repeat:repeat; background-size: cover; width:100%;
+}
+.creame-bg {  background-color: #f7f3eb; padding:50px 0; border-top:solid 2px #b7945f; position:relative; 
+// background: url(../images/slider-1.jpg); background-repeat:repeat; background-size: cover; width:100%;
+}
+.creame-bg-small {  background-color: #f7f3eb; padding:25px 0; border-bottom:solid 2px #b7945f; }
+
+.zero-btm{ padding-bottom:0; margin-bottom:0;}
+
+
+.book-now {  font-family:$cormorant-garamond; font-weight:$fnt-wt-700-bold;   font-size:16px; color:$white-color; text-align:$text-center;  display:inline-block; @extend.animate-1; text-transform:uppercase; border:solid 1px #8d7249;
+a {color:$white-color; padding:12px 15px; display:inline-block; border:solid 1px #8d7249; 
+&:hover {color:$gold-color; padding:12px 15px; 
+    }
+}
+}
+
+
+
+.button-1 {
+  background-image: -webkit-linear-gradient(30deg, #8d7249 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #8d7249 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-1:hover {
+  background-position: 100%;
+ 
+}
+
+
+
+
+.button-2 {
+  background-image: -webkit-linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+//spotlight
+
+
+.spotlight-box { position:relative; margin-top:50px;
+     background: url(../images/spotlight.jpg); background-repeat:repeat; background-size: cover; width:100%; height:100vh;
+    
+img { width:100%;}
+.text-box  { position:absolute; left:0; right:0; transform:translateY(-50%); top:auto; text-align:center; padding: 0 15px; bottom: calc(100% - 70%);
+p { padding: 15px 0; 
+img { width:100%; height:auto; max-width:454px;}
+}
+}
+.h1 { color: $white-color;}
+
+} 
+
+
+
+
+
+
+
+
+//image over effect
+
+
+
+.hovereffect {width:100%;height:auto;float:left;overflow:hidden;position:relative;text-align:center;cursor:default;}
+.hovereffect img {display:block;position:relative;-webkit-transition:all .4s linear;transition:all .4s linear;}
+.hovereffect:hover img {-ms-transform:scale(1.2);-webkit-transform:scale(1.2);transform:scale(1.2);}
+.hovereffect .overlay { display: flex;justify-content: center;align-items: center;width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;opacity:0;background-color:rgba(0,0,0,0.4);
+-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.hovereffect:hover .overlay {opacity:1;filter:alpha(opacity=100);}

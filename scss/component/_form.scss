@@ -1,0 +1,105 @@
+// variable starts here
+
+$garamondregular:'cormorant_garamondregular';
+$garamondlight:'cormorant_garamondlight';
+$garamondmedium:'cormorant_garamondmedium';
+$garamondsemibold:'cormorant_garamondsemibold';
+$garamondbold:'cormorant_garamondbold';
+
+
+
+$fnt-wt-300-light:300;
+$fnt-wt-400-regular:400;
+$fnt-wt-500-medium:500;
+$fnt-wt-600-semibold:600;
+$fnt-wt-700-bold:700;
+
+
+$cormorant-garamond:'Cormorant Garamond', serif;
+
+
+
+
+
+$gold-color:#8d7249;
+$text-size:24px;
+$white-color:#ffffff;
+
+$text-bold: bold;
+$text-center:center;
+
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+
+
+
+
+.form-box{
+.gold-color-box{  background-color: $gold-color; padding:30px 0;
+.h2{ color:$white-color; font-size:$text-size; font-family:$cormorant-garamond; text-align: center; font-weight:$fnt-wt-500-medium; padding:0; line-height:29px;}
+
+
+.fields-list { display: flex; align-items: center;
+ul{ padding:0; margin:0; width:90%;
+li{ list-style:none; list-style:none; background-color:#ffffff; border:none; padding: 10px; color:$gold-color; margin:15px; width:15%; font-family:$cormorant-garamond; font-weight:$fnt-wt-500-medium; font-size:14px; float:left;
+
+input[type="text"]{   }
+
+select{ background: transparent; -webkit-appearance: none;  margin: 0 40px 0 0; text-transform: uppercase;
+-moz-appearance: none;  /* for Firefox */ font-weight:bold;
+appearance: none; 
+-ms-appearance:none;
+background: transparent url("../images/plus.png") no-repeat scroll 96% center; width:12px; height:29px;
+width: 100%;  }
+select::-ms-expand { display: none; }
+select option { font-weight:bold; }
+
+
+
+.property { display: flex; justify-content:space-between; align-items:center;
+
+
+span{ padding:0 5px;}  
+}   
+
+
+.check { display: flex; justify-content:space-between; align-items:center;
+
+
+span{ padding:0 5px;} 
+
+div{
+&:last-child{ width: 50%;
+input { width:70%;}
+
+} 
+
+}
+}  
+
+
+
+
+&:first-child{ width:21%;}
+
+
+}
+.room{ width:12%;}
+}
+
+}   
+
+
+.form-book-now {  background-color:#04565f; font-family:$cormorant-garamond; font-weight:$fnt-wt-700-bold;  font-size:16px; color:$white-color; text-align:$text-center;  display:inline-block; @extend.animate-1;  text-transform:uppercase;
+a {color:$white-color; padding:12px 15px; display:inline-block; border:solid 1px #04565f; 
+&:hover { background-color:#ffffff; color:$gold-color; padding:12px 15px; border:solid 1px #ffffff; }
+}
+}
+
+
+
+
+
+} 
+} 

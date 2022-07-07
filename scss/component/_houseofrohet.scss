@@ -1,0 +1,77 @@
+// variable starts here
+
+$garamondregular:'cormorant_garamondregular';
+$garamondlight:'cormorant_garamondlight';
+$garamondmedium:'cormorant_garamondmedium';
+$garamondsemibold:'cormorant_garamondsemibold';
+$garamondbold:'cormorant_garamondbold';
+
+
+
+$fnt-wt-300-light:300;
+$fnt-wt-400-regular:400;
+$fnt-wt-500-medium:500;
+$fnt-wt-600-semibold:600;
+$fnt-wt-700-bold:700;
+
+
+$cormorant-garamond:'Cormorant Garamond', serif;
+
+
+
+
+
+$gold-color:#8d7249;
+$text-size:24px;
+$white-color:#ffffff;
+
+$text-bold: bold;
+$text-center:center;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+
+
+
+
+//house of rohet component
+
+.sub-header { margin: 50px 0; 
+    .h3{ display: flex;  align-items: center;  justify-content: center;
+        a{
+            img {     margin-right: 10px;}   
+        }
+    }
+
+}
+
+.hor-carosel .slick-next {background: url(../images/right-arrow-mob.png) no-repeat; width:12px; height:21px; color: transparent;}
+.hor-carosel .slick-prev {background: url(../images/left-arrow-mob.png) no-repeat;  width:12px; height:21px; color: transparent;}
+
+.hor-carosel .slick-prev:hover, .hor-carosel .slick-prev:focus { color: transparent; outline: none; background: url(../images/left-arrow-mob.png) no-repeat; width:12px; height:21px;}
+.hor-carosel .slick-next:hover, .hor-carosel .slick-next:focus {color: transparent; outline: none; background: url(../images/right-arrow-mob.png) no-repeat; width:12px; height:21px;}
+.hor-carosel .slick-prev:before, .hor-carosel .slick-next:before { line-height: 1;  opacity: 1; color: transparent;  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;}
+
+
+
+
+.hor-carosel .slick-slide { height:auto;}
+.hor-list { padding:0 30px; text-align: center;}
+
+.hor-carosel .slick-slide img { display: block; width: 100%;}
+
+.hor-carosel .slick-prev {  left: -10px; z-index:99;}
+.hor-carosel .slick-next{  right: -10px; z-index:99;}
+
+
+
+
+
+
+
+
+
+
+
+

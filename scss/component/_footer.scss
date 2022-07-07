@@ -1,0 +1,100 @@
+// variable starts here
+
+$garamondregular:'cormorant_garamondregular';
+$garamondlight:'cormorant_garamondlight';
+$garamondmedium:'cormorant_garamondmedium';
+$garamondsemibold:'cormorant_garamondsemibold';
+$garamondbold:'cormorant_garamondbold';
+
+
+
+$fnt-wt-300-light:300;
+$fnt-wt-400-regular:400;
+$fnt-wt-500-medium:500;
+$fnt-wt-600-semibold:600;
+$fnt-wt-700-bold:700;
+
+
+$cormorant-garamond:'Cormorant Garamond', serif;
+
+
+
+
+
+$gold-color:#8d7249;
+$text-size:24px;
+$white-color:#ffffff;
+
+$text-bold: bold;
+$text-center:center;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+
+
+
+
+
+
+// footer css starts here
+
+
+
+
+.gold-color-box {
+background-color: #8d7249;
+padding: 50px 0 50px 0;
+}
+.footer-box { 
+
+.pic-list { 
+ul{ margin:0; padding:0;
+li{ list-style: none;  padding: 0 25px 0 25px;  width: calc(25% - 5px); float: none;  display: inline-block;  vertical-align: top;                   
+.card{ 
+img { width:100%; }
+}
+}
+}
+}
+.hor { display:flex; justify-content: space-between; padding:0 30px; vertical-align: top; 
+.link-list{
+ul{ margin:0; padding:0;}
+li{ list-style:none; display: list-item; font-size:14px; color:$white-color;  font-family: 'montserratlight'; text-transform:uppercase; padding: 5px 0 5px 0;text-align:left; line-height: 19px;
+a{ color:$white-color; }
+
+}
+}
+.hor-logo {
+img { width:100%; max-width:156px;}
+}
+}
+
+.social { margin:40px 0 20px 0;  padding:0 30px;
+ul{  margin:0; padding:0; display:flex;  }
+li{  list-style:none; display:inline-block; padding:10px; 
+    &:first-child{ padding-left:0;}
+    
+    }
+
+}
+.reserve {  font-size:14px; color:$white-color;   font-family: 'montserratlight';  padding:0 30px; line-height: 19px;}
+
+
+
+.first {  padding:15px 0; text-align: center;
+img { width:100%; max-width:68px; }
+}
+.second { padding:15px 0; text-align: center;
+img { width:100%; max-width:195px;  }
+} 
+.third {  padding:15px 0; text-align: center;
+img { width:100%; max-width:165px; }
+} 
+.fourth {  padding:15px 0; text-align: center;
+img { width:100%; max-width:111px; }
+} 
+
+
+
+}
+.copyright { text-align: center; padding-top:50px; font-size:11px; color:$white-color;  font-family: 'montserratlight';line-height: 20px; text-transform: uppercase; letter-spacing: 1px; line-height: 16px;} 
